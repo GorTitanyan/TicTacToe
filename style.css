@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(170, 170, 2);
+}
+#mainDiv{
+    height: 100vw;
+}
+#leftDiv{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(170, 170, 170);
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 96px;
+    margin:50px auto;
+
+}
+#rightDiv{
+    font-size: 48px;
+    padding: 16px;
+    display:flex;
+    justify-content:space-around;
+}
+.rightChild{
+    width: 150px;
+    padding-left: auto;
+    padding-right: auto;
+    height: 90px;
+    
+}
+.cell{
+    width: 33.3%;
+    height: 33.3%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#reset{
+    background-color: chartreuse;
+    border-radius: 20%;
+    font-size: 36px;
+    padding: 16px;
+    text-align: center;
+    
+
+}
+#time{
+    background-color: green;
+    margin-bottom: 30px;
+    border: 3px dotted rgb(1, 39, 1);
+    width: max-content;
+    font-size: 48px;
+    padding: 16px;
+}
+#textDiv{
+    width:100%;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top:50px;
+    display:flex;
+    flex-wrap:wrap;
+}
+#justText{
+    min-height:80px;
+    width:33.3%;
+}
+.highPart{
+    width:33.3%;
+    padding-bottom: 30px;
+}
+.lowPart{
+    width: 33.3%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    min-height: 100px;
+}
+.bottomPart{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 40px;
+    font-size: 24px;
+}
+#sub{
+    width: 50%;
+    background-color: rgb(190, 167, 62);
+    font-size: 24px;
+}
